@@ -1,0 +1,28 @@
+define floorplan model (
+    color "SlateGray"
+    boundary 1
+    gui_nose 1
+    gui_grid 0
+    gui_move 0
+    obstacle_return 1
+)
+
+window(
+    size [1920 1016 1]
+    rotate [ 0.000 32.500]
+    center [ 6.472 7.118 0 ]
+    scale 94.938
+    show_data 1
+    show_clock 1
+)
+
+floorplan (
+    size [27.050 21.650 1.000]
+    pose [13.525 10.825 0.000 0.000]
+    bitmap "../maps/msa.pgm"
+)   
+
+include "../robots/robot.inc"
+
+robot_0 (pose [ 4.773 7.980 0.000 -144.000 ] name "robot")
+robot_1 (pose [ 14.773 17.980 0.000 -144.000 ] name "robot")
