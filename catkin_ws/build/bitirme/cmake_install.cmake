@@ -1,8 +1,8 @@
-# Install script for directory: /home/msa/Desktop/catkin_ws/src/bitirme
+# Install script for directory: /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src/bitirme
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/msa/Desktop/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/msa/Desktop/catkin_ws/build/bitirme/catkin_generated/installspace/bitirme.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme/catkin_generated/installspace/bitirme.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bitirme/cmake" TYPE FILE FILES
-    "/home/msa/Desktop/catkin_ws/build/bitirme/catkin_generated/installspace/bitirmeConfig.cmake"
-    "/home/msa/Desktop/catkin_ws/build/bitirme/catkin_generated/installspace/bitirmeConfig-version.cmake"
+    "/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme/catkin_generated/installspace/bitirmeConfig.cmake"
+    "/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme/catkin_generated/installspace/bitirmeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bitirme" TYPE FILE FILES "/home/msa/Desktop/catkin_ws/src/bitirme/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bitirme" TYPE FILE FILES "/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src/bitirme/package.xml")
 endif()
 

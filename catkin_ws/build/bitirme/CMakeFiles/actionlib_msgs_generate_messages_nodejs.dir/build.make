@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msa/Desktop/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msa/Desktop/catkin_ws/build
+CMAKE_BINARY_DIR = /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build: actionlib_
 .PHONY : bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 
 bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/msa/Desktop/catkin_ws/build/bitirme && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/msa/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msa/Desktop/catkin_ws/src /home/msa/Desktop/catkin_ws/src/bitirme /home/msa/Desktop/catkin_ws/build /home/msa/Desktop/catkin_ws/build/bitirme /home/msa/Desktop/catkin_ws/build/bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src/bitirme /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bitirme/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

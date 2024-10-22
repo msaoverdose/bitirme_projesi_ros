@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msa/Desktop/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msa/Desktop/catkin_ws/build
+CMAKE_BINARY_DIR = /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build
 
 # Utility rule file for tf2_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build: tf2_msgs_generate_m
 .PHONY : bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 
 bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
-	cd /home/msa/Desktop/catkin_ws/build/bitirme && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 
 bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend:
-	cd /home/msa/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msa/Desktop/catkin_ws/src /home/msa/Desktop/catkin_ws/src/bitirme /home/msa/Desktop/catkin_ws/build /home/msa/Desktop/catkin_ws/build/bitirme /home/msa/Desktop/catkin_ws/build/bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/src/bitirme /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme /home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/build/bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bitirme/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 

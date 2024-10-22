@@ -1,0 +1,15 @@
+<launch>
+    <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping_robot_0" output="screen">
+        <remap from="scan" to="/robot_0/base_scan"/>
+        <param name="odom_frame" value="robot_0/odom"/>
+        <param name="map_frame" value="robot_0/map"/>
+        <param name="base_frame" value="robot_0/base_link"/>
+    </node>
+
+    <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping_robot_1" output="screen">
+        <remap from="scan" to="/robot_1/base_scan"/>
+        <param name="odom_frame" value="robot_1/odom"/>
+        <param name="map_frame" value="robot_1/map"/>
+        <param name="base_frame" value="robot_1/base_link"/>
+    </node>
+</launch>

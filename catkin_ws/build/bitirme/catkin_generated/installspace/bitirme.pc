@@ -1,4 +1,4 @@
-prefix=/home/msa/Desktop/catkin_ws/install
+prefix=/home/msa/Desktop/bitirme_projesi_ros/bitirme_projesi_ros/catkin_ws/install
 
 Name: bitirme
 Description: Description of bitirme
