@@ -1,4 +1,4 @@
-image: msa.pgm
+image: example.pgm
 resolution: 0.15
 origin: [0.000000, 0.000000, 0.000000]
 negate: 0    
