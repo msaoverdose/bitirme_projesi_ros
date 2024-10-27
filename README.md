@@ -4,8 +4,6 @@ This project aim to CRoP on Localization and Mapping with using Integrated Serve
 
 Erzurum Technical University EEE Graduation Project 
 
-
-
 If you want to work with 2 robot use this directory:
 
 Config file:
