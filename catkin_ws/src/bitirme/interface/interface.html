@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROS WebSocket Test</title>
+  <script src="https://cdn.jsdelivr.net/npm/roslib/build/roslib.min.js"></script>
+</head>
+<body>
+  <h1>ROS WebSocket Test</h1>
+  <p id="status">Bağlanıyor...</p>
+  <pre id="output"></pre>
+
+  <script>
+    const ros = new ROSLIB.Ros({
+      url: 'ws://localhost:9090'
+    });
+
+    ros.on('connection', () => {
+      document.getElementById('status').innerText = 'Connection established';
+      
+      const mapTopic = new ROSLIB.Topic({
+        ros: ros,
+        name: '/map',
+        messageType: 'nav_msgs/OccupancyGrid'
+      });
+
+      mapTopic.subscribe((message) => {
+        document.getElementById('output').innerText = JSON.stringify(message, null, 2);
+      });
+    });
+
+    ros.on('error', (error) => {
+      document.getElementById('status').innerText = 'Connectioon ERROR!';
+      console.error(error);
+    });
+
+    ros.on('close', () => {
+      document.getElementById('status').innerText = 'Connection Closed!';
+    });
+  </script>
+</body>
+</html>
