@@ -1,6 +1,5 @@
 # bitirme_projesi_ros
 
-https://github.com/msaoverdose/bitirme_projesi_ros/blob/main/logo.jpg
 
 This project aim to Multi Robot on Localization and Mapping with using Integrated Server Services
 
