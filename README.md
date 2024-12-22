@@ -1,6 +1,6 @@
 # bitirme_projesi_ros
 
-![logo](https://github.com/user-attachments/assets/6be6db4b-8519-4128-b1ca-de6f59c3eb2d)
+![Gold Embossed 3D Logo Mockup ](https://github.com/user-attachments/assets/173aa79d-6e2a-4c92-98cb-94108205480f)
 
 This project aim to Multi Robot on Localization and Mapping with using Integrated Server Services
 
