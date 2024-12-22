@@ -1,11 +1,13 @@
 # bitirme_projesi_ros
 
+![logo](https://github.com/user-attachments/assets/6be6db4b-8519-4128-b1ca-de6f59c3eb2d)
 
 This project aim to Multi Robot on Localization and Mapping with using Integrated Server Services
 
 Erzurum Technical University EEE Graduation Project 
 
 If you want to work with 2 robot use this directory:
+
 
 Config file:
 available_robots: ["robot_0", "robot_1"]
