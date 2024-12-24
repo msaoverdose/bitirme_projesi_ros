@@ -43,3 +43,7 @@ Start the ROS Codes with this steps:
 rosrun X dual_reactive.py robot_X
 
 roslaunch X dual_gmapping.launch
+
+![arkaplan](https://github.com/user-attachments/assets/f575db18-7afe-4638-979d-34c9c7d7bd61)
+
+
