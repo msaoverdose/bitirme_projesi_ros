@@ -1,0 +1,2 @@
+bitirme
+-DCATKIN_DEVEL_PREFIX=/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/install -G Unix Makefiles
