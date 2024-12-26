@@ -1,0 +1,6 @@
+<launch>
+<arg name="config_name" default="robot" />
+<arg name="map_name" default="house" /> 
+<node pkg="stage_ros" type="stageros" name="stage_ros" args="$(find bitirme)/worlds/$(arg map_name).world" output="screen" />
+<rosparam file="$(find bitirme)/config/$(arg config_name).yaml" command="load" />
+</launch>
