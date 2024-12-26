@@ -132,6 +132,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/build/bitirme/cmake_install.cmake")
+  include("/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/build/map_merge/map_merge/cmake_install.cmake")
+  include("/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/build/map_merge/explore/cmake_install.cmake")
 
 endif()
 

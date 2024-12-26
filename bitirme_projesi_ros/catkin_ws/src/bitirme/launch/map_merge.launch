@@ -1,0 +1,18 @@
+<launch>
+  <!-- Map Merge Node -->
+  <node pkg="map_merge" type="map_merge" name="map_merge_node" output="screen">
+    <!-- İki haritanın topiklerini belirtiyoruz -->
+    <param name="robot_map_topic" value="/robot1/map" />
+    <param name="robot_map_topic" value="/robot2/map" />
+    
+    <!-- Haritaların global çerçevesi -->
+    <param name="global_frame" value="map" />
+    
+    <!-- Harita çözünürlüğü -->
+    <param name="resolution" value="0.05" />
+    
+    <!-- Haritaların pozisyonunu otomatik hizalama -->
+    <param name="robot_map_alignment" value="true" />
+  </node>
+</launch>
+

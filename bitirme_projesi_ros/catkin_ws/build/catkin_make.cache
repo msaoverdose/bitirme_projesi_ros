@@ -1,2 +1,2 @@
-bitirme
+bitirme:map_merge/explore:map_merge/map_merge
 -DCATKIN_DEVEL_PREFIX=/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/msa/Desktop/bitirme/bitirme_projesi_ros/catkin_ws/install -G Unix Makefiles

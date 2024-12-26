@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "bitirme")
 set(bitirme_VERSION "0.0.0")
-set(bitirme_MAINTAINER "msa <msa@todo.todo>")
+set(bitirme_MAINTAINER "msa <mehmet.semih.arsla66@erzurum.edu.tr>")
 set(bitirme_PACKAGE_FORMAT "2")
 set(bitirme_BUILD_DEPENDS "geometry_msgs" "message_generation" "nav_msgs" "roscpp" "rospy" "sensor_msgs" "stage_ros" "std_msgs" "tf")
 set(bitirme_BUILD_EXPORT_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "rospy" "sensor_msgs" "stage_ros" "std_msgs" "tf")
